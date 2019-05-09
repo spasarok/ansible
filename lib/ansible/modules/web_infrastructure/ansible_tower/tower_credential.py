@@ -162,7 +162,7 @@ EXAMPLES = '''
     kind: scm
     username: joe
     password: secret
-    ssh_key_data: "{{ lookup('file', '/tmp/id_rsa') }}"
+    ssh_key_data: "/tmp/id_rsa"
     ssh_key_unlock: "passphrase"
 
 - name: Add Credential Into Tower
